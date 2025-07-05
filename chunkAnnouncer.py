@@ -3,9 +3,9 @@ import socket
 import json
 import time
 
-CHUNK_SIZE = 1024  # Değiştirmeniz gereken boyut
-BROADCAST_IP = '255.255.255.255'
-BROADCAST_PORT = 5001
+CHUNK_SIZE =  # Değiştirmeniz gereken boyut
+BROADCAST_IP =
+BROADCAST_PORT = 
 
 def divide_file(file_path):
     with open(file_path, 'rb') as f:
